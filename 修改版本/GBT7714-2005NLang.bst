@@ -1122,7 +1122,7 @@ FUNCTION {format.patent.title} {
   title empty$			% 专利提名
     { "" }
     { new.block
-      title bbl.colon * 
+      title bbl.colon * number *
       nationality empty$		% 专利国别, 专利号
 	{ % 专利国别为必备项
 	  "The nationality in " cite$ * " is missing." * warning$
@@ -1137,6 +1137,7 @@ FUNCTION {format.patent.title} {
 	  if$
 	}
       if$
+	  %number *
       % 文献类型标志
       bib.type.designator *
     }
