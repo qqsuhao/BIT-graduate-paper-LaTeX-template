@@ -318,13 +318,13 @@ footskip=0.7cm% 页脚 1.8cm %
   labelsep = zhspace,
 }
 \captionsetup[table]{
-  position = top,
+  position = above,
   aboveskip = 6bp,
   belowskip = 6bp,
 }
 \numberwithin{table}{chapter}
 \captionsetup[figure]{
-  position = bottom,
+  position = below,
   aboveskip = 6bp,
   belowskip = 6bp,
 }

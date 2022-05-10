@@ -46,6 +46,11 @@
 - 修改了部分代码，使得其外文会议参考文献变成[C]//的样式。
 - 修改了专利的格式，加入了专利号。
 
+### 目前无法在cls文件中统一调整图、表和公式与正文之间的间距，只能在tex文件的代码中修改：
+建议修改（具体数值可自行修改）：
+- 调整图片的间距：在\end{figure}前边加上一行\vspace{-16bp}；
+- 调整表格的间距：在\begin{table}下边加上一行\vspace{-6bp}；在\end{table}前边加上一行\vspace{-10bp}；
+- 调整公式的间距：在\begin{equation}或者\begin{align}前边加上两行\abovedisplayskip=3pt和\belowdisplayskip=3pt；
 
 
 ## 注：
