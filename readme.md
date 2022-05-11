@@ -52,6 +52,10 @@
 - 调整表格的间距：在\begin{table}下边加上一行\vspace{-6bp}；在\end{table}前边加上一行\vspace{-10bp}；
 - 调整公式的间距：在\begin{equation}或者\begin{align}前边加上两行\abovedisplayskip=3pt和\belowdisplayskip=3pt；
 
+### 部分修改效果展示
+![setting](fixed1.png)
+![setting](fixed2.png)
+![setting](fixed3.png)
 
 ## 注：
 
